@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<solr persistent="false">
+	<cores adminPath="/admin/cores">
+		<core name="contacts" instanceDir="/opt/solr/contacts" />
+		<core name="questions" instanceDir="/opt/solr/questions" />
+		<core name="institutions" instanceDir="/opt/solr/institutions"/>
+		<core name="arrangement instanceDir="/opt/solr/arrangement"/>
+	</cores>
+</solr>
